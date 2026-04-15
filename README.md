@@ -5,8 +5,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)
-![Dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen)(requirements.txt) 
-![License](https://img.shields.io/badge/Licencia-MIT-green)(LICENSE)
+[![Dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen)](requirements.txt)
+[![License](https://img.shields.io/badge/Licencia-MIT-green)](LICENSE)
 
 Trabajo de Fin de Máster (MSc Data Science & AI) enfocado en un caso real de negocio: **easyMoney**, una plataforma de productos financieros cuyo objetivo es maximizar la rentabilidad de su base de clientes mediante analítica avanzada y modelos predictivos.
 
