@@ -1,5 +1,8 @@
 # 💳 easyMoney — Customer Analytics & Predictive Modeling
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/christianirshool-glitch/malware-detection-ml/blob/main/TFM_Final_Model.ipynb)
+![MSc Thesis](https://img.shields.io/badge/Status-Master_Thesis-gold?style=flat-square)
+![XGBoost](https://img.shields.io/badge/Engine-XGBoost_v2.0-red?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)
