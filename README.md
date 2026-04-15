@@ -64,8 +64,6 @@ El dataset incluye información de clientes de easyMoney con tres bloques de var
 | Comerciales | Segmento, canal de captación, antigüedad |
 | De contratación | Productos contratados, historial de compra |
 
-> ⚠️ Los datos son confidenciales y no se incluyen en este repositorio.
-
 ---
 
 ## 🔧 Metodología
