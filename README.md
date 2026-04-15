@@ -5,7 +5,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi&logoColor=white)
-![License](https://img.shields.io/badge/Licencia-MIT-green)
+![Dependencies](https://img.shields.io/badge/dependencies-up--to--date-brightgreen)(requirements.txt)
+![License](https://img.shields.io/badge/Licencia-MIT-green)(LICENSE)
 
 Trabajo de Fin de Máster (MSc Data Science & AI) enfocado en un caso real de negocio: **easyMoney**, una plataforma de productos financieros cuyo objetivo es maximizar la rentabilidad de su base de clientes mediante analítica avanzada y modelos predictivos.
 
@@ -155,8 +156,7 @@ Se desarrolló un dashboard interactivo orientado al área comercial con:
 ## 🚀 Instalación y uso
 
 ### Requisitos previos
-- Python 3.8 o superior
-- `pip`
+Puedes consultar todas las librerías necesarias en el archivo [requirements.txt](requirements.txt). 
 
 ### Pasos
 
@@ -208,4 +208,4 @@ Data Scientist · MSc in Data Science
 
 ## 📄 Licencia
 
-Este proyecto está bajo la licencia **MIT** — consulta el archivo [LICENSE](../LICENSE) para más detalles.
+Este proyecto está bajo la licencia **MIT** — consulta el archivo [LICENSE](LICENSE) para más detalles.
