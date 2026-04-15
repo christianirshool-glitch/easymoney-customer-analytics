@@ -162,37 +162,35 @@ Puedes consultar todas las librerías necesarias en el archivo [requirements.txt
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/christianirshool-glitch/My-projects.git
-cd My-projects/TFM
+git clone [https://github.com/christianirshool-glitch/easymoney-customer-analytics.git](https://github.com/christianirshool-glitch/easymoney-customer-analytics.git)
+cd easymoney-customer-analytics
 
-# 2. Crea y activa un entorno virtual (recomendado)
+# 2. Configura el entorno virtual
 python -m venv venv
-source venv/bin/activate       # Linux/macOS
-venv\Scripts\activate          # Windows
+source venv/bin/activate       # Windows: venv\Scripts\activate
 
-# 3. Instala las dependencias
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+# 3. Instala las dependencias oficiales
+pip install -r requirements.txt
 
-# 4. Lanza los notebooks
-jupyter notebook notebooks/segmentacion_clientes.ipynb
-jupyter notebook notebooks/propension_compra.ipynb
+# 4. Ejecuta el análisis principal
+jupyter notebook TFM_final.ipynb
 ```
 
-> ⚠️ Los datos no están disponibles públicamente. Para reproducir el análisis, sustituye los archivos en `data/` con un dataset propio de características similares.
+
 
 ---
 
 ## 📁 Estructura del proyecto
 
 ```
-TFM/
-├── data/                            # Datos (no incluidos)
-├── notebooks/
-│   ├── segmentacion_clientes.ipynb  # Clustering + PCA
-│   └── propension_compra.ipynb      # Modelo predictivo
-├── src/                             # Scripts auxiliares
-├── models/                          # Modelos serializados
-├── dashboard/                       # Archivo .pbix de Power BI
+easymoney-customer-analytics/
+├── Datasets/                        # Archivos CSV y Diccionarios
+├── .gitattributes                   # Configuración de rastreo de archivos
+├── Clustering_y_análisis_con_PCA.ipynb # Notebook de Segmentación
+├── TFM_final.ipynb                  # Notebook de Predicción (Final)
+├── G6NUCLIO_Presentacion.pdf        # Documento de presentación
+├── requirements.txt                 # Dependencias
+├── LICENSE                          # Licencia MIT
 └── README.md
 ```
 
